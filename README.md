@@ -2,13 +2,10 @@
 
 Tugas Scanning Keamanan Jaringan
 
-## Penyerang:
-1. apt-get install nmap
-
-2. nmap <ip_target>
 
 ## Admin: (smtp gmail)
 1. Setting security akun google menjadi less secure account
+
 
 ## Target: 
 1. sudo su
@@ -50,5 +47,11 @@ echo "Ada scanning dari IP $1 $2 $3" | mail -s "scanning" <email_penerima>
 11. iptables -F
 
 12. /etc/init.d/portsentry restart
+
+
+## Penyerang:
+1. apt-get install nmap
+
+2. nmap <ip_target>
 
 DONE
