@@ -1,11 +1,11 @@
 
 # Network Security - Quiz 1
 
-Tugas Scanning Keamanan Jaringan
+Scanning
 
 
 ## Admin: (smtp gmail)
-#### 1. Setting security akun google menjadi less secure account
+#### 1. Setup google account to "Less Secure"
 
 
 ## Target: 
@@ -41,7 +41,7 @@ Tugas Scanning Keamanan Jaringan
 #### 9. nano /usr/local/sbin/scan.sh
 - #!/bin/bash
 - iptables -I INPUT -s $1 -j DROP
-- echo "Ada scanning dari IP $1 $2 $3" | mail -s "scanning" <email_penerima>
+- echo "There is a scan from IP address: $1 $2 $3" | mail -s "<email_subject>" <receiver_email_address>
 
 #### 10. chmod +x /usr/local/sbin/scan.sh
 
@@ -49,7 +49,7 @@ Tugas Scanning Keamanan Jaringan
 
 #### 12. /etc/init.d/portsentry restart
 
-## Penyerang:
+## Attacker:
 #### 1. apt-get install nmap
 
 #### 2. nmap <ip_target>
