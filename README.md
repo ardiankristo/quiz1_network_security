@@ -12,6 +12,8 @@ Scanning
 #### 1. sudo su
 
 #### 2. apt-get install net-tools portsentry postfix mailutils
+>chose option internet site
+>domain name doesn't matter
 
 #### 3. nano /etc/postfix/sasl_passwd:
 - [smtp.gmail.com]:587 <admin_email_address>:<admin_email_password>
