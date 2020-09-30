@@ -14,7 +14,7 @@ Scanning
 #### 2. apt-get install net-tools portsentry postfix mailutils
 
 #### 3. nano /etc/postfix/sasl_passwd:
-- [smtp.gmail.com]:587 <alamat_email>:<password>
+- [smtp.gmail.com]:587 <admin_email_address>:<admin_email_password>
 
 #### 4. nano /etc/postfix/main.cf
 - relayhost = [smtp.gmail.com]:587
